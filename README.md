@@ -1,4 +1,4 @@
-# MyUI Plugin for ILIAS10
+# MyUIPlugin for ILIAS10
 Exploring my first plugin for ILIAS10.
 
 UI Plugin under Customizing/global/Services/UIComponent/UserInterfaceHook
