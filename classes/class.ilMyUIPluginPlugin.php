@@ -8,7 +8,7 @@ class ilMyUIPluginPlugin extends ilUserInterfaceHookPlugin
 	protected ProviderCollection $provider_collection;
 	protected static ?self $instance = null;
 	
-	/*public function __construct(ilDBInterface $db, ilComponentRepositoryWrite $component_repo, string $id)
+	public function __construct(ilDBInterface $db, ilComponentRepositoryWrite $component_repo, string $id)
 	{
 		global $DIC;
 		$this->db = $db;
@@ -20,7 +20,6 @@ class ilMyUIPluginPlugin extends ilUserInterfaceHookPlugin
 		//add scripts and styles to metadata
 		$this->addMetadata();
 	}
-	*/
 
 	public function getPluginName(): string
     {
@@ -38,7 +37,7 @@ class ilMyUIPluginPlugin extends ilUserInterfaceHookPlugin
             'css/myuiplugin.css'
         ];
     }
-/*
+    
     private function addMetadata(): void
     {
 	    global $DIC;
@@ -47,6 +46,6 @@ class ilMyUIPluginPlugin extends ilUserInterfaceHookPlugin
 	    $meta_content->addCss('Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/MyUIPlugin/css/myuiplugin.css');
 	    //addJs(path, false, 1) can be used to add scripts
     }
-*/
+
 
 }
