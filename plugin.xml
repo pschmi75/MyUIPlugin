@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <id>myuiplugin</id>
+    <name>MyUIPlugin</name>
+    <version>1.0.0</version>
+    <ilias_min_version>10.0</ilias_min_version>
+    <ilias_max_version>10.99</ilias_max_version>
+</plugin>
